@@ -28,6 +28,11 @@ html
         color: black !important;
         opacity: 1; /* Ensures full visibility */
     }
+    .container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
     
     :-ms-input-placeholder { /* For Internet Explorer */
         color: black !important;
@@ -93,8 +98,11 @@ img
 }
 .container
 {
-    max-width: 1140px;
+/*     max-width: 1140px; */
+    max-width: 100%;
+    overflow-x: hidden;
     margin: auto;
+
 }
 .row
 {
