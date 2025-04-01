@@ -29,7 +29,9 @@ html
         opacity: 1; /* Ensures full visibility */
     }
     .container {
-    max-width: 100%;
+/*     max-width: 100%; */
+    max-width: 1140px;
+    margin: auto;
     overflow-x: hidden;
 }
 
