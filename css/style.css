@@ -2138,3 +2138,8 @@ footer a {
         height: 200px;
     }
 }
+.footer-bottom{
+    background-color: var(--bg-color);
+    padding: 0px 0;
+    text-align: center;
+}
